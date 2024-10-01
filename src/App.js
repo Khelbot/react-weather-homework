@@ -18,7 +18,7 @@ function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/shecodesio/weather"
+            href="https://github.com/Khelbot/react-weather-homework"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -26,7 +26,7 @@ function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://shecodes-weather.netlify.app/"
+            href="https://jolly-salamander-27ea5f.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
