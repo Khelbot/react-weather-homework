@@ -1,0 +1,165 @@
+.App {
+  margin: 100px;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  align-items: start;
+  color: black;
+}
+
+h1 {
+  font-size: 40px;
+
+  margin-bottom: 0px;
+  color: black;
+  font-weight: 700;
+}
+h3 {
+  font-size: 27px;
+  font-weight: 550;
+  margin-bottom: 20px;
+  color: black;
+  padding-left: 15px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+li {
+  color: #27214266;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+div {
+  display: block;
+}
+
+.App footer {
+  color: #27214266;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.App .weather-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px #41326414;
+  color: #878787;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  padding: 40px;
+}
+
+.Weather form {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+.Weather form {
+  width: 100%;
+  display: block;
+}
+input {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 7px;
+  color: #27214266;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 20px;
+  margin: 12px;
+  width: 100%;
+}
+
+button {
+  background: #885df1;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  padding: 15px 0;
+  width: 180px;
+  height: 50px;
+  border-radius: 7px;
+  color: white;
+  margin: 12px 0;
+}
+
+.main-icon {
+  width: 100px;
+  height: auto;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: 400;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 10px;
+  color: black;
+}
+
+.unit {
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  line-height: 1;
+  position: relative;
+  top: -34px;
+}
+
+.WeatherForecast {
+  border-bottom: 1px solid #f9f7fe;
+  margin: 40px 0;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.col {
+  flex: 1 0;
+}
+
+.city-info {
+  padding-left: 0px;
+}
+
+.wind,
+.humidity {
+  color: hotpink;
+}
+
+.WeatherInfo {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
+
+.forecast-item {
+  text-align: center;
+  flex: 1; /* Equal space for each item */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 0 5px; /* Spacing between items */
+}
+
+footer {
+  font-size: 12px;
+}
