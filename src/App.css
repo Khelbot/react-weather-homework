@@ -1,12 +1,11 @@
-.App {
-  margin: 100px;
-}
-
 body {
-  background-color: white;
+  background-color: #f9f7fd;
   min-height: 100vh;
   align-items: start;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -18,7 +17,7 @@ h1 {
 }
 h3 {
   font-size: 27px;
-  font-weight: 550;
+  font-weight: 600;
   margin-bottom: 20px;
   color: black;
   padding-left: 15px;
@@ -56,6 +55,10 @@ div {
   color: #878787;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   padding: 40px;
+  width: 776px;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px #41326414;
+  display: block;
 }
 
 .Weather form {
@@ -111,11 +114,10 @@ button {
 .unit {
   color: black;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 550;
   line-height: 36px;
   line-height: 1;
   position: relative;
-  top: -34px;
 }
 
 .WeatherForecast {
@@ -135,7 +137,7 @@ button {
 
 .wind,
 .humidity {
-  color: hotpink;
+  color: #f65282;
 }
 
 .WeatherInfo {
@@ -158,6 +160,15 @@ button {
   border-radius: 5px;
   background-color: #f9f9f9;
   margin: 0 5px; /* Spacing between items */
+}
+.forecast-temperature {
+  color: #f65282;
+  font-size: 18px;
+  font-weight: 700;
+}
+.forecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 10px;
 }
 
 footer {
